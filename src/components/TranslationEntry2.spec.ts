@@ -3,6 +3,9 @@ import { installQuasarPlugin } from '@quasar/quasar-app-extension-testing-unit-j
 
 import TranslationEntry from './TranslationEntry2.vue'
 import { mount, shallowMount } from '@vue/test-utils';
+/**
+ * @jest-environment jsdom
+ */
 
 installQuasarPlugin();
 
