@@ -7,7 +7,6 @@
 </template>
 <script lang="ts">
 import {defineComponent, PropType} from 'vue';
-import { debounce, QBtn } from 'quasar';
 import {useVModel} from '@vueuse/core'
 
 const entry = () => ({

@@ -1,6 +1,22 @@
 {
   "extends": "@quasar/app/tsconfig-preset",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "target": "ES2020",
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "paths": {
+      "vee-validate": ["./src/libs/vee-validate/vee-validate.js"],
+      "ol": ["../node_modules/@types/ol"],
+      "src/*": ["./src/*"],
+      "app/*": ["./*"],
+      "*": ["./src/*"],
+    }
   }
 }
