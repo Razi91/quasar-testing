@@ -1,0 +1,13 @@
+/dist
+/cypress
+/src-bex/www
+/src-capacitor
+/src-cordova
+/src/libs
+/.quasar
+/node_modules
+/test/cypress
+i18next-scanner.config.js
+*.spec.*
+quasar.conf.js
+src-pwa/register-service-worker.js
