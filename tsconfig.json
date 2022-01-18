@@ -2,7 +2,6 @@
   "extends": "@quasar/app/tsconfig-preset",
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "ES2020",
     "jsx": "preserve",
     "experimentalDecorators": true,
     "allowJs": true,

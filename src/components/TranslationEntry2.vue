@@ -23,18 +23,18 @@ export default defineComponent({
         QBtn,
         QItem,
         QItemSection,
-      },
-      props:{
-          modelValue: {
-              type: Object as PropType<any>,
-              default: () => entry()
-          }
-      },
-      setup (props, {emit}) {
-          const entry = useVModel(props, 'modelValue', emit);
-          return {
-              entry
-          }
-      },
+    },
+    props:{
+        modelValue: {
+            type: Object as PropType<any>,
+            default: () => entry()
+        }
+    },
+    setup (props, {emit}) {
+        const entry = useVModel(props, 'modelValue', emit);
+        return {
+            entry
+        }
+    },
 });
 </script>

@@ -3,12 +3,8 @@ import { installQuasarPlugin } from '@quasar/quasar-app-extension-testing-unit-j
 
 import TranslationEntry from './TranslationEntry.vue'
 import { mount, shallowMount } from '@vue/test-utils';
-import {
-QBtn
-} from 'quasar'
-installQuasarPlugin({
-components: {QBtn}
-});
+
+installQuasarPlugin();
 
 describe('TranslationEntry', () => {
     it('mount', () => {
